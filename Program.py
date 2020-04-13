@@ -4,6 +4,7 @@ from DadosOr import DadosOr
 from Mcp import Mcp
 from DadosImpl import DadosImpl
 
+# Primeiro commit
 
 print "Escolha a funcao booleana"
 print "1- And"
