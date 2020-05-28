@@ -7,7 +7,7 @@ class Mcp:
         self.n  = n
         
     def output(self, pattern):
-        if (pattern.x1*self.w1 + pattern.x2*self.w2 + (-1)*self.w3) > 0:
+        if ((pattern.x1 * self.w1) + (pattern.x2 * self.w2) + ((-1) * self.w3)) > 0:
             return 1
         else:
             return 0
@@ -18,4 +18,4 @@ class Mcp:
         self.w3 = self.w3 + self.n * (pattern.y - out) * (-1) 
         
     def mostrarPesos(self):
-        print "W1: " ,self.w1, "W2: ", self.w2, "w0: ", self.w3
+        print ("W1: " ,self.w1, "W2: ", self.w2, "w0: ", self.w3)

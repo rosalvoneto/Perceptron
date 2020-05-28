@@ -6,4 +6,4 @@ class Pattern:
         self.y  = y
         
     def mostrarDados(self):
-        print "X1: " ,self.x1, "X2: ", self.x2, "Y: ", self.y
+        print ("X1: " ,self.x1, "X2: ", self.x2, "Y: ", self.y)
