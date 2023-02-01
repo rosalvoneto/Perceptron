@@ -6,7 +6,7 @@ from DadosImpl import DadosImpl
 
 # Primeiro commit
 
-print("Escolha a funcao booleana")
+print("Escolha a funcao booleana: ")
 print("1- And")
 print("2- Or")
 print("3- Imp")
